@@ -1,0 +1,16 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Daf&amp;Coiff">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6dfa0"/>
+      <stop offset="45%" stop-color="#cda153"/>
+      <stop offset="100%" stop-color="#8a6a34"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="100" fill="none" stroke="url(#gold)" stroke-width="2.5"
+          stroke-dasharray="420 400" stroke-dashoffset="60" transform="rotate(-52 120 120)"/>
+  <text x="86" y="158" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-weight="700" font-size="128" fill="url(#gold)">D</text>
+  <text x="160" y="158" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-weight="700" font-size="112" fill="url(#gold)">C</text>
+  <path d="M198 46 l4.5 13 13 4.5 -13 4.5 -4.5 13 -4.5-13 -13-4.5 13-4.5Z" fill="url(#gold)"/>
+</svg>

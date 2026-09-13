@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="71 71 370 370" fill="none">
+  <!-- Water drop -->
+  <path fill="#8a6a34" d="
+    M256 101
+    C256 101 163 217 163 303
+    C163 369 205 411 256 411
+    C307 411 349 369 349 303
+    C349 217 256 101 256 101
+    Z
+  "/>
+
+  <!-- Inner highlight -->
+  <path stroke="#8a6a34" stroke-width="10" stroke-linecap="round" d="
+    M195 291
+    C192 326 208 351 234 365
+  "/>
+</svg>

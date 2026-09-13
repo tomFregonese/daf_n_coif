@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="65 138 335 335" fill="none">
+  <!-- Filled hair dryer -->
+  <path fill="#8a6a34" d="
+    M112 165
+    H303
+    C340 165 363 186 363 220
+    V255
+    C363 289 340 309 303 309
+    H257
+    L242 319
+    V423
+    C242 437 251 446 264 446
+    H292
+    C305 446 314 437 314 423
+    V309
+    H303
+    C280 309 260 301 244 288
+    L215 267
+    H112
+    C105 267 101 262 101 255
+    V177
+    C101 170 105 165 112 165
+    Z
+  "/>
+
+  <!-- Rear intake separation -->
+  <path stroke="#8a6a34" stroke-width="9" d="M146 165 V267"/>
+
+  <!-- Air control mark -->
+  <path stroke="#8a6a34" stroke-width="8" stroke-linecap="round" d="M267 224 H309"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 38 305 305" fill="none">
+  <g transform="rotate(42 180 180)" stroke="#8a6a34" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Bristle mass -->
+    <path d="M132 72h96l-7 70h-82l-7-70Z" fill="#8a6a34" stroke-width="5"/>
+
+    <!-- Uneven bristle tips -->
+    <path d="M132 72c7-5 13 4 20 0 8-5 14 4 22 0 8-5 15 4 23 0 8-5 15 4 22 0 4-2 7-1 9 0" fill="none" stroke-width="4"/>
+
+    <!-- Bristle grooves -->
+    <path d="M147 80l4 54M160 78l3 57M174 78l2 57M187 78l-2 57M201 78l-3 57M214 80l-4 54" fill="none" stroke-width="4" opacity=".5"/>
+
+    <!-- Bristle edge near the ferrule -->
+    <path d="M139 142h82" fill="none" stroke-width="5"/>
+
+    <!-- Metal ferrule -->
+    <path d="M136 146h88v54c0 9-7 16-16 16h-56c-9 0-16-7-16-16v-54Z" fill="#8a6a34" stroke-width="5" opacity=".8"/>
+
+    <!-- Ferrule ridges -->
+    <path d="M138 161h84M138 176h84M138 191h84" fill="none" stroke-width="4" opacity=".65"/>
+
+    <!-- Ferrule rivets -->
+    <circle cx="149" cy="202" r="4" fill="#8a6a34"/>
+    <circle cx="211" cy="202" r="4" fill="#8a6a34"/>
+
+    <!-- Sculpted wooden handle -->
+    <path d="M159 216h42l8 36c2 10 0 21-7 29l-6 8c-4 6-4 14 0 20l3 5h-38l3-5c4-6 4-14 0-20l-6-8c-7-8-9-19-7-29l8-36Z" fill="#8a6a34" stroke-width="5"/>
+
+    <!-- Handle collar -->
+    <path d="M159 216h42M163 230h34" fill="none" stroke-width="5" opacity=".55"/>
+
+    <!-- Handle wood grain -->
+    <path d="M176 243c-5 10-5 20 0 30M187 243c5 10 5 20 0 30M172 286c5 4 11 4 16 0" fill="none" stroke-width="4" opacity=".4"/>
+
+    <!-- Hanging hole -->
+    <circle cx="180" cy="300" r="5" fill="none" stroke-width="4" opacity=".65"/>
+  </g>
+</svg>

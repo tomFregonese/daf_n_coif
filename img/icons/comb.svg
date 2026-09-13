@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="90 96 370 370">
+  <g transform="translate(256 256) rotate(-43) translate(-256 -256) scale(0.68) translate(121 121)" fill="#8a6a34">
+    <!-- Comb spine -->
+    <path d="
+      M42 181
+      H437
+      C451 181 460 191 460 204
+      V220
+      C460 233 451 242 438 244
+      H72
+      C54 244 42 232 42 214
+      V181
+      Z
+    "/>
+
+    <!-- Comb teeth -->
+    <g>
+      <rect x="57"  y="226" width="12" height="195" rx="6"/>
+      <rect x="82"  y="226" width="12" height="195" rx="6"/>
+      <rect x="107" y="226" width="12" height="195" rx="6"/>
+      <rect x="132" y="226" width="12" height="195" rx="6"/>
+      <rect x="157" y="226" width="12" height="195" rx="6"/>
+      <rect x="182" y="226" width="12" height="195" rx="6"/>
+      <rect x="207" y="226" width="12" height="195" rx="6"/>
+      <rect x="232" y="226" width="12" height="195" rx="6"/>
+      <rect x="257" y="226" width="12" height="195" rx="6"/>
+      <rect x="282" y="226" width="12" height="195" rx="6"/>
+      <rect x="307" y="226" width="12" height="195" rx="6"/>
+      <rect x="332" y="226" width="12" height="195" rx="6"/>
+      <rect x="357" y="226" width="12" height="195" rx="6"/>
+      <rect x="382" y="226" width="12" height="195" rx="6"/>
+      <rect x="407" y="226" width="12" height="195" rx="6"/>
+      <rect x="432" y="226" width="12" height="195" rx="6"/>
+    </g>
+  </g>
+</svg>

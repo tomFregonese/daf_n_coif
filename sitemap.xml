@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Domaine PLACEHOLDER (https://www.dafandcoiff.fr) : à remplacer par
+     l'adresse définitive avant de décommenter la ligne Sitemap de robots.txt.
+     La page mentions-legales.html reste volontairement hors sitemap
+     (noindex assumé, contenu sans valeur pour la recherche). -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.dafandcoiff.fr/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

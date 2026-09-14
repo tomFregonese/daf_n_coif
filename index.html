@@ -4,8 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Daf&amp;Coiff — Coiffure à domicile | Peypin et alentours</title>
-<meta name="description" content="Je suis Dafné, coiffeuse à domicile : coupe, couleur, brushing, lissage pour femmes, hommes et enfants. Secteur Peypin et alentours, sur rendez-vous au 06 45 38 05 12.">
+<meta name="description" content="Dafné, coiffeuse à domicile : coupe, couleur, brushing, lissage pour femmes, hommes et enfants. Secteur Peypin (13) et alentours, sur rendez-vous.">
 <meta name="theme-color" content="#16130f">
+
+<!-- ============================================================
+     SEO — préparation avant mise en ligne définitive
+     Le site tourne encore sur une adresse provisoire (voir CNAME :
+     dafandcoiff.dytoagency.com). Tant que c'est le cas :
+       - la balise "robots" ci-dessous bloque l'indexation
+       - "https://www.dafandcoiff.fr" (canonical, og:*, twitter:*,
+         JSON-LD plus bas) est un PLACEHOLDER à remplacer par le
+         vrai domaine
+     Checklist complète de bascule : voir README.md, section
+     "Avant mise en ligne publique".
+     ============================================================ -->
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://www.dafandcoiff.fr/">
 
 <link rel="icon" type="image/svg+xml" href="img/logo/mark.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon-32.png">
@@ -14,8 +28,42 @@
 <meta property="og:type" content="business.business">
 <meta property="og:title" content="Daf&amp;Coiff — Coiffure à domicile">
 <meta property="og:description" content="La beauté et le bien-être viennent à vous : je suis coiffeuse professionnelle à domicile, secteur Peypin et alentours.">
-<meta property="og:image" content="img/hero/hero.jpg">
+<meta property="og:image" content="https://www.dafandcoiff.fr/img/hero/hero.jpg">
+<meta property="og:url" content="https://www.dafandcoiff.fr/">
+<meta property="og:site_name" content="Daf&amp;Coiff">
 <meta property="og:locale" content="fr_FR">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Daf&amp;Coiff — Coiffure à domicile">
+<meta name="twitter:description" content="La beauté et le bien-être viennent à vous : je suis coiffeuse professionnelle à domicile, secteur Peypin et alentours.">
+<meta name="twitter:image" content="https://www.dafandcoiff.fr/img/hero/hero.jpg">
+
+<!-- Données structurées (schema.org) : aident Google à comprendre le
+     métier, la zone desservie et les coordonnées pour l'affichage
+     local (Maps / pack local), une fois le site indexable. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "Daf&Coiff",
+  "description": "Coiffeuse à domicile pour femmes, hommes et enfants : coupe, couleur, brushing, lissage. Secteur Peypin (13) et alentours, sur rendez-vous.",
+  "image": "https://www.dafandcoiff.fr/img/hero/hero.jpg",
+  "url": "https://www.dafandcoiff.fr/",
+  "telephone": "+33645380512",
+  "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Peypin",
+    "postalCode": "13124",
+    "addressRegion": "Provence-Alpes-Côte d'Azur",
+    "addressCountry": "FR"
+  },
+  "areaServed": "Peypin (13) et alentours",
+  "sameAs": [
+    "https://www.instagram.com/daf_and_coiff/"
+  ]
+}
+</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +73,7 @@
 </head>
 <body>
 
-<a class="visually-hidden" href="#contenu" style="position:absolute;left:-9999px;">Aller au contenu</a>
+<a class="visually-hidden" href="#contenu">Aller au contenu</a>
 
 <!-- ===================== HEADER ===================== -->
 <header class="site-header" id="site-header">
@@ -60,7 +108,7 @@
     </div>
     <div class="container hero__content">
       <span class="eyebrow">Coiffure à domicile · Peypin et alentours</span>
-      <h1>Daf&amp;Coiff</h1>
+      <h1>Daf&amp;Coiff<span class="visually-hidden"> — Coiffure à domicile à Peypin et alentours</span></h1>
       <p class="hero__tagline">La beauté et le bien-être viennent à vous.</p>
       <p class="hero__sub">Coupe, couleur, brushing, lissage… <strong>je suis Dafné</strong>, et j'installe le confort et le savoir-faire d'un salon directement chez vous, pour femmes, hommes et enfants.</p>
       <div class="cta-row">

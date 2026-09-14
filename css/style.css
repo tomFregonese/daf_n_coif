@@ -60,6 +60,30 @@ button { font: inherit; cursor: pointer; }
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
 
+/* Masque visuellement sans masquer aux lecteurs d'écran / moteurs de recherche
+   (lien d'évitement, texte de renfort SEO dans le H1...). Réapparaît au focus
+   pour les éléments interactifs (ex. lien d'évitement). */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.visually-hidden:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
 .container {
   width: 100%;
   max-width: var(--container);

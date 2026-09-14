@@ -1,0 +1,11 @@
+# Le site n'est pas encore sur son domaine définitif.
+# Tant que ce fichier reste tel quel, tout crawl est bloqué.
+User-agent: *
+Disallow: /
+
+# --- À la mise en ligne définitive ---
+# 1. Remplacer les 2 lignes ci-dessus par :
+#      User-agent: *
+#      Allow: /
+# 2. Décommenter la ligne Sitemap ci-dessous (vérifier le domaine dans sitemap.xml)
+# Sitemap: https://www.dafandcoiff.fr/sitemap.xml

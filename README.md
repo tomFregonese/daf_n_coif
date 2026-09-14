@@ -71,6 +71,21 @@ Pour un nom de domaine propre (`daf-et-coiff.fr` par ex.) sur GitHub Pages, ajou
 - Vérifier le numéro de téléphone (`tel:+33645380512`) si le numéro change.
 - Les tarifs affichés reprennent ceux du flyer fourni — à resynchroniser si elle les met à jour.
 
+### Checklist SEO — bascule vers le domaine définitif
+
+Le site est actuellement volontairement **bloqué pour les moteurs de recherche**
+(adresse provisoire `dafandcoiff.dytoagency.com`, pas encore le domaine final).
+Une fois le nom de domaine définitif choisi et le DNS en place :
+
+1. Remplacer le placeholder `https://www.dafandcoiff.fr` par la vraie URL, partout où il apparaît :
+   `index.html` (`canonical`, `og:*`, `twitter:*`, JSON-LD), `sitemap.xml`, `robots.txt` (ligne `Sitemap:` en commentaire).
+2. Dans `index.html`, retirer la balise `<meta name="robots" content="noindex, nofollow">`
+   (et tout le bloc de commentaire SEO juste au-dessus, devenu inutile).
+3. Dans `robots.txt`, remplacer `Disallow: /` par `Allow: /` et décommenter la ligne `Sitemap:`.
+4. Déployer, puis dans **Google Search Console** : valider la propriété du domaine, soumettre `sitemap.xml`, demander l'indexation de la page d'accueil.
+5. Créer la fiche **Google Business Profile** (catégorie « Coiffeur à domicile », zone de service = Peypin et alentours, pas d'adresse publique) — c'est le levier le plus important pour ce type d'activité, à faire dès que possible après la mise en ligne.
+6. Vérifier le rendu du partage sur réseaux sociaux (aperçu Instagram/WhatsApp) une fois l'`og:image` sur la vraie URL.
+
 ## Contenu / prestations
 
 Modifier les prix ou prestations directement dans `index.html`, section `#prestations` (une carte `.service-card` par prestation). La galerie (`#galerie`) et ses légendes sont dans la section `#galerie` ; pour ajouter une photo, déposer le fichier dans `img/gallery/` (idéalement en jpg + webp, plein format ~1400px et miniature ~680px) et dupliquer un bloc `.gallery-item`.
